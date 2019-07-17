@@ -1,0 +1,1000 @@
+ 1016  git log
+ 1017  git branch 
+ 1018  ls
+ 1019  ll
+ 1020  git checkout -b devbranch
+ 1021  git status 
+ 1022  ls
+ 1023  code index.html 
+ 1024  git branch 
+ 1025  git commit -a -m 'update'
+ 1026  git status
+ 1027  git checkout master 
+ 1028  ls
+ 1029  code index.html 
+ 1030  git commit -a -m 'latest update'
+ 1031  git merge devbranch 
+ 1032  code index.html 
+ 1033  git add .
+ 1034  git commit -m 'vrai'
+ 1035  git log
+ 1036  cd ..
+ 1037  ls
+ 1038  rm -r git project/
+ 1039  ls
+ 1040  rm -r git
+ 1041  ls
+ 1042  rm -rf git
+ 1043  ls
+ 1044  rm -rf project
+ 1045  ls
+ 1046  mkdir git && cd git 
+ 1047  touch file1.txt file2.txt
+ 1048  ls
+ 1049  gedit file1.txt 
+ 1050  gedit file1.txt file2.txt 
+ 1051  git init 
+ 1052  git add .
+ 1053  git commit -m 'first commit'
+ 1054  gedit file1.txt file2.txt 
+ 1055  git status
+ 1056  git stash save 'working on line3'
+ 1057  git status
+ 1058  git stash list
+ 1059  gedit file1.txt file2.txt 
+ 1060  git status 
+ 1061  git add .
+ 1062  git commit -m 'fixed issue 1'
+ 1063  git status 
+ 1064  git stash list
+ 1065  git stash apply stash@{0}
+ 1066  gedit file1.txt file2.txt 
+ 1067  git stash list
+ 1068  git stash drop
+ 1069  git stash list
+ 1070  gedit file1.txt file2.txt 
+ 1071  git status
+ 1072  git diff
+ 1073  git stash save 'working in line 4'
+ 1074  gedit file1.txt file2.txt 
+ 1075  git add file1.txt 
+ 1076  git commit -m 'add new future'
+ 1077  git stash list
+ 1078  git stash pop
+ 1079  git stash list
+ 1080  /opt/lampp/lampp start
+ 1081  sudo /opt/lampp/lampp start
+ 1082  sudo apt-get install phpmyadmin
+ 1083  sudo gedit /etc/apache2/apache2.conf
+ 1084  sudo service apache2 restart
+ 1085  sudo /opt/lampp/lampp start
+ 1086  sudo service mysql stop
+ 1087  run sudo /opt/lampp/xampp start
+ 1088  service --status-all
+ 1089  sudo systemctl disable mysql
+ 1090  nano /etc/init/mysql.conf 
+ 1091  sudo update-rc.d -f apache2 remove
+ 1092  sudo update-rc.d apache2 disable
+ 1093  sudo update-rc.d apache2 enable
+ 1094  service --status-all|grep -i pid
+ 1095  apt-get install chkconfig
+ 1096  sudo apt-get install chkconfig
+ 1097  cd Bureau/
+ 1098  cd boot/
+ 1099  firefox boot.html 
+ 1100  cd Bureau/
+ 1101  mkdir boot
+ 1102  cd boot/
+ 1103  LS
+ 1104  ls
+ 1105  code boot.html
+ 1106  sudo /opt/lampp/lampp start
+ 1107  mysql
+ 1108  sudo mysql
+ 1109  service mysql start 
+ 1110  systemctl status mysql.service
+ 1111  journalctl -xe
+ 1112  ps aux | grep mysqld
+ 1113  mysql -u root -p
+ 1114  ls -lart /var/run/my*
+ 1115  mkdir /var/run/mysqld
+ 1116  sudo su 
+ 1117  sudo servive mysql start
+ 1118  sudo servives mysql start
+ 1119  sudo su 
+ 1120  sudo servives mysql start
+ 1121  sudo /opt/lampp/lampp start
+ 1122  mysql
+ 1123  sudo install -g npm@latest
+ 1124  npm install -g npm@latest
+ 1125  sudo install -g sudo@latest
+ 1126  ng new angular
+ 1127  npm -v
+ 1128  node -v
+ 1129  npm install -g @angular/cli
+ 1130  ng new angular
+ 1131  sudo apt install curl
+ 1132  curl --version 
+ 1133  nodejs --version
+ 1134  ng new angular
+ 1135  sudo apt install ng-common
+ 1136  ng new angular
+ 1137  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+ 1138  sudo apt-get install -y nodejs
+ 1139  nodejs --version
+ 1140  npm -v
+ 1141  sudo npm install -g @angular/cli
+ 1142  ng new angular
+ 1143  nvm ls
+ 1144  npm ls
+ 1145  ng -v
+ 1146  sudo su 
+ 1147  nodejs --version
+ 1148  cd Bureau/
+ 1149  gedit test.js
+ 1150  node test.js
+ 1151  gedit test.js
+ 1152  node test.js
+ 1153  mysql
+ 1154  sudo service mysql stop 
+ 1155  sudo rm /var/run/mysqld/mysqld.sock
+ 1156  sudo service mysql start
+ 1157  sudo su 
+ 1158  sudo apt-get remove --purge mysql-server mysql-client mysql-common -y
+ 1159  sudo apt-get autoremove -y
+ 1160  sudo apt-get autoclean
+ 1161  rm -rf /etc/mysql
+ 1162  sudo find / -iname 'mysql*' -exec rm -rf {} \;
+ 1163  /etc/init.d/mysqld stop
+ 1164  service mysqld stop 
+ 1165  mysql -u root -p
+ 1166  sudo apt update
+ 1167  sudo apt-get install mysql-server
+ 1168  sudo mysql_service_installation
+ 1169  sudo mysql_secure_installation
+ 1170  mysql
+ 1171  service mysqld start
+ 1172  mysql -u root
+ 1173  mysql -h 127.0.0.1 -P 3306 -u root -p <database>
+ 1174  sudo service mysql start
+ 1175  sudo su 
+ 1176  mysql
+ 1177  sudo mysql
+ 1178  sudo apt-get install phpmyadmin
+ 1179  sudo apt-get install php-mbstring
+ 1180  sudo service apache2 restart
+ 1181  sudo apt-get install php-gettext
+ 1182  sudo service apache2 restart
+ 1183  sudo apt-get install phpmyadmin
+ 1184  sudo apt-get update
+ 1185  sudo apt-get install phpmyadmin
+ 1186  sudo apt-get upgrade
+ 1187  sudo apt-get update
+ 1188  sudo mysql
+ 1189  sudo /opt/lampp/lampp start
+ 1190  sudo /opt/lampp/lampp stop
+ 1191  sudo apt-get install gksu
+ 1192  lsb_release -a
+ 1193  sudo gedit /etc/systemd/system/xampp.service
+ 1194  mysql
+ 1195  sudo mysql
+ 1196  sudo /opt/lampp/lampp start
+ 1197  sudo /opt/lampp/lampp status
+ 1198  sudo service mysql stop
+ 1199  sudo /opt/lampp/lampp start
+ 1200  sudo gedit /opt/lampp/bin/mysql.server
+ 1201  sudo /opt/lampp/lampp start
+ 1202  sudo gedit /opt/lampp/bin/mysql.server
+ 1203  sudo /opt/lampp/lampp start
+ 1204  sudo gedit /opt/lampp/lampp 
+ 1205  sudo /opt/lampp/lampp start
+ 1206  sudo xampp-linux-x64-5.6.30-0-installer.run
+ 1207  ls -l /opt/lampp/var/mysql
+ 1208  sudo ls -l /opt/lampp/var/mysql
+ 1209  find mysql.server
+ 1210  mysql
+ 1211  sudo mysql
+ 1212  sudo su 
+ 1213  sudo apt-get install python-software-properties
+ 1214  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+ 1215  sudo apt-get update && sudo apt-get install yarn
+ 1216  sudo apt-get install nodejs
+ 1217  node --version
+ 1218  npm --version
+ 1219  npm install -g @angular/cli
+ 1220  ng --version
+ 1221  ng new hello-angular
+ 1222  cd hello-angular/
+ 1223  ng serve
+ 1224  ng serve --open
+ 1225  cd
+ 1226  code angular/
+ 1227  systemctl status mysql.service
+ 1228  sudo su 
+ 1229  ng naw hello-angular --style=scss --skip-tests=true
+ 1230  ng new hello-angular --style=scss --skip-tests=true
+ 1231  rm hello-angular/
+ 1232  rm -r hello-angular/
+ 1233  rm -rf hello-angular/
+ 1234  ng new angular --style=scss --skip-tests=true
+ 1235  npm install bootstrap@3.3.7 --save
+ 1236  code angular/
+ 1237  cd angular/
+ 1238  npm install bootstrap@3.3.7 --save
+ 1239  npm install bootstrap --save
+ 1240  ng serve --open
+ 1241  ng angular --style=scss --skip-tests=true
+ 1242  add angular --style=scss --skip-tests=true
+ 1243  ls
+ 1244  cd 
+ 1245  ng angular --style=scss --skip-tests=true
+ 1246  ls
+ 1247  rm -rf angular/
+ 1248  ng new angular --style=scss --skip-tests=true
+ 1249  cd angular/
+ 1250  npm install bootstrap --save
+ 1251  bootstrap --version
+ 1252  ls
+ 1253  code angular.json 
+ 1254  ng serve --open
+ 1255  cd Téléchargements/ && mkdir cv && mv slide73.pptx cv
+ 1256  firefox day.html 
+ 1257  code day.html
+ 1258  cd Bureau/
+ 1259  ls
+ 1260  cd git/
+ 1261  ls
+ 1262  ll
+ 1263  git status
+ 1264  gedit file2.txt 
+ 1265  cd .. && ls
+ 1266  gedit git.txt 
+ 1267  cd git/
+ 1268  ls
+ 1269  gedit git.txt 
+ 1270  cd Bureau/
+ 1271  ls
+ 1272  cd
+ 1273  ls
+ 1274  ls ang
+ 1275  ls angular/
+ 1276  rm -rf ang
+ 1277  ls ang
+ 1278  ng --version
+ 1279  cd ang
+ 1280  ng serve 
+ 1281  ls
+ 1282  cd ../angular/
+ 1283  ng serve
+ 1284  cd && ls
+ 1285  rm -r ang/
+ 1286  cd ../angular/
+ 1287  pwd
+ 1288  cd angular/
+ 1289  ng serve
+ 1290  sudo su 
+ 1291  cd Bureau/
+ 1292  ls
+ 1293  cd git
+ 1294  git status
+ 1295  git log
+ 1296  git diff
+ 1297  git commit -am "third commit"
+ 1298  git log
+ 1299  git diff
+ 1300  git status
+ 1301  ls
+ 1302  ls file1.txt 
+ 1303  gedit file1.txt 
+ 1304  git checkout 6f98768b31fc7183e3b19dbf701eef21aee7634b
+ 1305  gedit file1.txt 
+ 1306  git checkout master 
+ 1307  gedit file1.txt 
+ 1308  git status 
+ 1309  git commit -am"test checkout"
+ 1310  git log
+ 1311  gedit file1.txt 
+ 1312  git checkout fad560db08397466810e9c18c4baf2ee6d89c88c
+ 1313  git log
+ 1314  gedit file1.txt 
+ 1315  git checkout master 
+ 1316  git log
+ 1317  gedit file1.txt 
+ 1318  cd ..
+ 1319  ls
+ 1320  mkdir crud1
+ 1321  cd crud1/
+ 1322  git clone https://github.com/only2dhir/angular7-crud-example.git
+ 1323  cd .. && mkdir crud2
+ 1324  cd crud2
+ 1325  git clone https://github.com/edgarMejia/Angular-CRUD.git
+ 1326  ls
+ 1327  cd Angular-CRUD/
+ 1328  ls
+ 1329  cd
+ 1330  cd Bureau/
+ 1331  ls
+ 1332  git clone https://github.com/bilelaskri123/test-angular.git
+ 1333  ls
+ 1334  cd test-angular/
+ 1335  ls
+ 1336  cat README.md 
+ 1337  ls
+ 1338  vim README.md 
+ 1339  cat README.md 
+ 1340  git stauts
+ 1341  git status 
+ 1342  git add .
+ 1343  git commit -m "premier test"
+ 1344  git push origin master 
+ 1345  touch fichier.txt
+ 1346  vim fichier.txt 
+ 1347  git status 
+ 1348  git add fichier.txt 
+ 1349  git status 
+ 1350  git commit -m "ajoute d'un fichier texte"
+ 1351  git push origin master 
+ 1352  git log
+ 1353  ls
+ 1354  cat README.md 
+ 1355  git pull origin master 
+ 1356  cat README.md *
+ 1357  cat README.md 
+ 1358  git log
+ 1359  cd 
+ 1360  ls
+ 1361  sudo apt install default-jre
+ 1362  sudo snap install --classic eclipse
+ 1363  ls
+ 1364  cd Bureau/
+ 1365  ls
+ 1366  odt stage.odt 
+ 1367  sudo apt-get install libstdc++6 libncurses5 libacl1
+ 1368  sudo apt-get install libgtk2.0-0 libxtst6 gksu
+ 1369  sudo apt-get install nfs-kernel-server autofs make gcc
+ 1370  sudo apt-get install libmrm4 libxm4 libxt6 libsm6 libice6
+ 1371  cd /tmp
+ 1372  wget http://mirrors.kernel.org/ubuntu/pool/main/libx/libxp/libxp6_1.0.2-1ubuntu1_i386.deb
+ 1373  sudo dpkg --install libxp6_1.0.2-1ubuntu1_i386.deb 
+ 1374  cd
+ 1375  cd tmp
+ 1376  cd /tmp/
+ 1377  ls
+ 1378  rm -rf libxp6_1.0.2-1ubuntu1_i386.deb 
+ 1379  ls
+ 1380  sudo apt-get update 
+ 1381  : sudo apt-get install -f
+ 1382  sudo gedit /etc/apt/sources.list
+ 1383  sudo apt-get clean
+ 1384  sudo apt-get autoclean
+ 1385  sudo apt-get clean all
+ 1386  sudo apt-get update
+ 1387  sudo aptitude dist-upgrade
+ 1388  reboot
+ 1389  systemctl reboot -i
+ 1390  cd Bureau/
+ 1391  mkdir stage_2019
+ 1392  cd stage_2019/
+ 1393  mkdir conception
+ 1394  cd conception/
+ 1395  cd ../..
+ 1396  ls
+ 1397  mv stage.od
+ 1398  mv stage.odt stage_2019/conception/
+ 1399  cd stage_2019/conception/
+ 1400  ls
+ 1401  cd
+ 1402  cd Téléchargements/
+ 1403  ls
+ 1404  chmod 755 StarUML-3.1.0-x86_64.AppImage 
+ 1405  ./StarUML-3.1.0-x86_64.AppImage 
+ 1406  cd Téléchargements/
+ 1407  ./StarUML-3.1.0-x86_64.AppImage 
+ 1408  cd ../Bureau/
+ 1409  ls
+ 1410  mv stage.odt *.mdj stage_2019
+ 1411  cd stage_2019/ && ls
+ 1412  mv *.mdj *.odt conception/
+ 1413  cd conception/ && ls
+ 1414  cd ..
+ 1415  git init
+ 1416  git status
+ 1417  git commit -am "premier conception"
+ 1418  git status
+ 1419  git branch
+ 1420  git add .
+ 1421  git commit -m "use case 1" 
+ 1422  git push origin master
+ 1423  ls
+ 1424  git clone https://github.com/bilelaskri123/test-angular.git
+ 1425  git push origin master
+ 1426  ls
+ 1427  cd test-angular/
+ 1428  git push origin master
+ 1429  cd .. && mv conception test-angular/
+ 1430  ls
+ 1431  mv test-angular/ conception
+ 1432  ls
+ 1433  git push origin master
+ 1434  ls
+ 1435  cd conception/
+ 1436  git push origin master
+ 1437  ls conception/
+ 1438  git status
+ 1439  git add .
+ 1440  git status
+ 1441  git commit -m "premier use case"
+ 1442  git log
+ 1443  git push origin master
+ 1444  ls
+ 1445  ls conception/
+ 1446  cd
+ 1447  ls
+ 1448  sudo /opt/lampp/lampp start
+ 1449  mysql
+ 1450  sudo su 
+ 1451  cd Téléchargements/
+ 1452  ls
+ 1453  sudo snap install intellij-idea-community --classic
+ 1454  intellij-idea-community 
+ 1455  sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+ 1456  sudo apt-get install libcanberra-gtk-module:i386
+ 1457  sudo apt-get install --reinstall libcanberra-gtk-module
+ 1458  intellij-idea-community 
+ 1459  sudo apt-get install snapd
+ 1460  sudo uninistall intellij-idea-community 
+ 1461  sudo apt-get remove intellij-idea-community
+ 1462  sudo add-apt-repository --remove ppa:mmk2410/intellij-idea-communit
+ 1463  umake -r ide idea
+ 1464  intellij-idea-community 
+ 1465  sudo apt install resolvconf
+ 1466  gedit /etc/resolvconf/resolv.conf.d/head
+ 1467  sudo service resolvconf restart
+ 1468  chmod 622 /etc/resolvconf/resolv.conf.d/head
+ 1469  sudo chmod 622 /etc/resolvconf/resolv.conf.d/head
+ 1470  sudo chmod 666 /etc/resolvconf/resolv.conf.d/head
+ 1471  npm install -g npm@latest
+ 1472  cd Bureau/
+ 1473  ls
+ 1474  ng new angular1
+ 1475  cd angular1/
+ 1476  ng serve --open
+ 1477  cd
+ 1478  ls
+ 1479  rm -r ang
+ 1480  ls -ll ang
+ 1481  ls -ll 
+ 1482  chmod 777 ang
+ 1483  sudo chmod 777 ang
+ 1484  ll
+ 1485  rm -r ang
+ 1486  ll
+ 1487  ls
+ 1488  cd Bureau/
+ 1489  ls
+ 1490  rm angular1/
+ 1491  rm -rf angular1/
+ 1492  ls
+ 1493  ng new angular1 --style=scss --skip-tests=true
+ 1494  cd angular1/
+ 1495  npm install bootstrap@3.3.7 --save
+ 1496  npm audit fix
+ 1497  npm install rxjs-compat --save
+ 1498  cd ..
+ 1499  code angular1/
+ 1500  cd angular1/
+ 1501  ng serve
+ 1502  ng generate component mon-premier
+ 1503  nh serve
+ 1504  ng serve
+ 1505  cd Bureau/
+ 1506  ls
+ 1507  cd angular1/
+ 1508  ng serve --open
+ 1509  cd ..
+ 1510  code angular1/
+ 1511  ng serve --open
+ 1512  cd Bureau/
+ 1513  ls
+ 1514  cd angular1/
+ 1515  ls
+ 1516  cd ..
+ 1517  code angular1/
+ 1518  sudo apt-get upgrade && sudo apt-get update
+ 1519  sudo apt-get install vim
+ 1520  vimtutor 
+ 1521  vim
+ 1522  cd Bureau/
+ 1523  cd stage_2019/
+ 1524  cd conception/
+ 1525  ls
+ 1526  libreoffice cahier.odt
+ 1527  libreoffice cahier
+ 1528  libreoffice -o chaier
+ 1529  libreoffice -c chaier
+ 1530  libreoffice cahier
+ 1531  cd Bureau/
+ 1532  ls
+ 1533  rm -r projet_sgbd/ rev_BD/ rev_IA/ rev_rx/ rev_sys/ 
+ 1534  ls
+ 1535  rm -r rev_ang/
+ 1536  rm -r web_rev/
+ 1537  ls
+ 1538  rm -r crud1/ crud2/ 
+ 1539  ls
+ 1540  rm -rf crud1/ crud2/ 
+ 1541  ls
+ 1542  rm CV_Ibrahim_KHALOUAOUI.pdf 
+ 1543  ls
+ 1544  rm -rf odootutorials/
+ 1545  ls
+ 1546  ls boot
+ 1547  rm -r boot/
+ 1548  rm -rf test-angular/
+ 1549  rm -r database/
+ 1550  rm cv.jpg 
+ 1551  ls
+ 1552  rm test.js 
+ 1553  ls
+ 1554  mv *.mdj stage_2019/conception/
+ 1555  ls
+ 1556  ls git
+ 1557  ls cv
+ 1558  rm -r cv
+ 1559  ls
+ 1560  rm -r cv.zip 
+ 1561  ls
+ 1562  rm -r git
+ 1563  ls
+ 1564  rm -rf git
+ 1565  ls
+ 1566  cd Bureau/
+ 1567  code hello.html
+ 1568  cd Bureau/
+ 1569  firefox hello.html 
+ 1570  sudo apt-get upgrade && sudo apt-get update
+ 1571  sudo apt-get dist-upgrade
+ 1572  cd Bureau/
+ 1573  ls
+ 1574  mkdir git 
+ 1575  cd git/
+ 1576  ls
+ 1577  git init
+ 1578  touch hello.md
+ 1579  vim hello.md 
+ 1580  git status 
+ 1581  add hello.md 
+ 1582  git add hello.md 
+ 1583  git commit -m "ajouté hello"
+ 1584  git branch 
+ 1585  git branch modif
+ 1586  git branch 
+ 1587  git checkout modif 
+ 1588  vim hello.md 
+ 1589  git checkout master 
+ 1590  vim hello.md 
+ 1591  git branch 
+ 1592  vim hello.md 
+ 1593  git checkout modif 
+ 1594  vim hello.md 
+ 1595  git status 
+ 1596  cd Bureau/
+ 1597  ls
+ 1598  gedit linux.txt 
+ 1599  rm linux.txt 
+ 1600  ls
+ 1601  mkdir linux
+ 1602  cd linux/
+ 1603  gedit partie3.txt
+ 1604  grep alias .bashrc
+ 1605  cd
+ 1606  grep alias .bashrc
+ 1607  cd Bureau/
+ 1608  ls
+ 1609  gedit test.txt
+ 1610  sort test.txt 
+ 1611  wc test.txt 
+ 1612  vi
+ 1613  ng serve --open
+ 1614  ng generte component hello
+ 1615  ng generate component hello
+ 1616  sudo apt-get update
+ 1617  sudo apt-get upgrade
+ 1618  cd Bureau/
+ 1619  ls
+ 1620  code angular1/
+ 1621  cd angular1/
+ 1622  ng serve --open 
+ 1623  cd Bureau/
+ 1624  ls
+ 1625  code angular1/
+ 1626  ng serve --open
+ 1627  cd angular1/
+ 1628  ng serve --open
+ 1629  cd
+ 1630  cd Téléchargements/
+ 1631  ls
+ 1632  ./StarUML-3.1.0-x86_64.AppImage 
+ 1633  cd Bureau/
+ 1634  ls
+ 1635  cd bootstrap/
+ 1636  ls
+ 1637  cd ..
+ 1638  mv index.html bootstrap/
+ 1639  cd bootstrap/ && ls
+ 1640  firefox index.html 
+ 1641  ls
+ 1642  rm index.html 
+ 1643  ls
+ 1644  code hello.html
+ 1645  firefox hello.html 
+ 1646  gedit boot.txt 
+ 1647  firefox hello.html 
+ 1648  cd Bureau/
+ 1649  ls
+ 1650  code angular1/
+ 1651  cd angular1/
+ 1652  ng serve --open
+ 1653  sudo apt update
+ 1654  sudo apt upgrade
+ 1655  sudo apt update
+ 1656  cd
+ 1657  sudo apt install snap -y
+ 1658  sudo snap install vlc
+ 1659  vlc
+ 1660  cd Bureau/
+ 1661  ls
+ 1662  cd linux/
+ 1663  ls
+ 1664  gedit partie3.txt 
+ 1665  cd ..
+ 1666  ls
+ 1667  gedit git.txt 
+ 1668  mkdir bootstrap
+ 1669  touch index.html
+ 1670  code index.html 
+ 1671  ll
+ 1672  cd bootstrap/
+ 1673  ll
+ 1674  gedit boot.txt
+ 1675  cp index.html test.html
+ 1676  firefox test.html 
+ 1677  ls
+ 1678  rm test.html 
+ 1679  cd
+ 1680  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+ 1681  sudo dpkg -i google-chrome-stable_current_amd64.deb
+ 1682  cat /etc/apt/sources.list.d/google-chrome.list
+ 1683  cd Bureau/
+ 1684  cd bootstrap/
+ 1685  xdg-open index.html 
+ 1686  gedit index.html 
+ 1687  cd
+ 1688  sudo apt update
+ 1689  sudo apt install wireshark
+ 1690  sudo usermod -aG wireshark $(whoami)
+ 1691  wireshark 
+ 1692  cd Bureau/bootstrap/
+ 1693  ls
+ 1694  sudo /opt/lampp/lampp stop
+ 1695  cd Bureau/
+ 1696  mkdir ang
+ 1697  cd ang
+ 1698  touch test.txt
+ 1699  gedit test.txt 
+ 1700  cd Bureau/bootstrap/
+ 1701  firefox hello.html 
+ 1702  cd Bureau/bootstrap/
+ 1703  ls
+ 1704  cd
+ 1705  ls Bureau/
+ 1706  cd Bureau/
+ 1707  cd bootstrap/
+ 1708  code hello.html 
+ 1709  sqldeveloper 
+ 1710  cd
+ 1711  ls
+ 1712  cd Bureau/
+ 1713  ls
+ 1714  cd Bureau/bootstrap/
+ 1715  code hello.html 
+ 1716  sudo apt-get update
+ 1717  sudo apt-get upgrade 
+ 1718  cd ..
+ 1719  ls
+ 1720  cd bootstrap/
+ 1721  cd Bureau/bootstrap/
+ 1722  firefox hello.html 
+ 1723  ls
+ 1724  ng g c appareil
+ 1725  ls
+ 1726  ls src
+ 1727  cd 
+ 1728  cd Bureau/bootstrap/
+ 1729  ls
+ 1730  mv profil.jpg ~/Bureau/angular1/src/assets/img/
+ 1731  cd ~/Bureau/angular1/
+ 1732  cd Bureau/bootstrap/
+ 1733  ls
+ 1734  cd
+ 1735  ls
+ 1736  cd Bureau/
+ 1737  ls
+ 1738  cd angular1/
+ 1739  ld
+ 1740  ls
+ 1741  ng serve --open
+ 1742  cd ..
+ 1743  code angular1/
+ 1744  sudo apt update
+ 1745  sudo apt upgrade
+ 1746  sudo apt update
+ 1747  sudo apt dist-upgrade
+ 1748  npm i bootstrap
+ 1749  npm install -g npm
+ 1750  npm i bootstrap
+ 1751  npm update bootstrap
+ 1752  npm i bootstrap
+ 1753  git clone https://github.com/twbs/bootstrap.git
+ 1754  npm install bootstrap
+ 1755  ng serve --open
+ 1756  npm install -g npm-check-updates
+ 1757  sudo npm install -g npm-check-updates
+ 1758  sudo npm i bootstrap
+ 1759  sudo apt upgrade
+ 1760  sudo apt update
+ 1761  ng serve --open
+ 1762  bootsatrap -v
+ 1763  bootsatrap new
+ 1764  bootstrap -v
+ 1765  Bootstrap -v
+ 1766  ng serve --open
+ 1767  npm install bootstrap
+ 1768  npm install -g npm-check-updates
+ 1769  npm install bootstrap@3
+ 1770  npm install bootstrap@4
+ 1771  npm i font-awesome
+ 1772  cd ..
+ 1773  code angular1/
+ 1774  cd angular1/
+ 1775  ng serve --open
+ 1776  npm install @fortawesome/fontawesome-svg-core
+ 1777  npm install @fortawesome/free-brands-svg-icons
+ 1778  npm install @fortawesome/free-regular-svg-icons
+ 1779  npm install @fortawesome/free-solid-svg-icons
+ 1780  npm install @fortawesome/angular-fontawesome
+ 1781  npm config set "@fortawesome:registry" https://npm.fontawesome.com/ &&   npm config set "//npm.fontawesome.com/:_authToken" TOKEN
+ 1782  npm install @fortawesome/pro-solid-svg-icons
+ 1783  cd Bureau/
+ 1784  ls
+ 1785  code angular1/
+ 1786  cd angular1/
+ 1787  ls
+ 1788  npm install bootstrap
+ 1789  bootstrap --version
+ 1790  npm update -g bootstrap-cli
+ 1791  cd ..
+ 1792  code angular1/
+ 1793  cd angular1/
+ 1794  npm i bootstrap
+ 1795  sudo npm install -g grunt bower
+ 1796  npm install -g bootstrap-cli
+ 1797  npm update -g bootstrap-cli
+ 1798  cd ..
+ 1799  cd angular1/
+ 1800  ng serve --open
+ 1801  chmod +x webstorm.sh
+ 1802  ./webstorm.sh 
+ 1803  ng serve --open
+ 1804  npm install --save font-awesome angular-font-awesome
+ 1805  ng serve --open
+ 1806  cd ..
+ 1807  code angular1/
+ 1808  cd angular1/
+ 1809  ng serve --open
+ 1810  cd
+ 1811  code main.ts
+ 1812  tsc main.ts 
+ 1813  sudo apt install node-typescript
+ 1814  tsc main.ts 
+ 1815  ts main.ts 
+ 1816  node main.ts 
+ 1817  node main.js 
+ 1818  ls
+ 1819  ts-node main.ts 
+ 1820  node main.ts
+ 1821  ls
+ 1822  npm install -g typescript
+ 1823  node main.js
+ 1824  npm install -g typescript
+ 1825  sudo npm install -g typescript
+ 1826  code main.ts
+ 1827  tsc main.ts
+ 1828  ls
+ 1829  code main.js
+ 1830  node main.js
+ 1831  tsc main.ts
+ 1832  node main.js
+ 1833  node main.ts
+ 1834  npm install -g ts-node
+ 1835  sudo npm install -g ts-node
+ 1836  node main.js
+ 1837  node main.ts
+ 1838  ts-node main.ts
+ 1839  ts-node
+ 1840  ts-node -e main.ts 
+ 1841  ts-node -pe main.ts 
+ 1842  node main.js 
+ 1843  nodejs main.js 
+ 1844  rhino main.js
+ 1845  node
+ 1846  jsc main.js 
+ 1847  tsc --version
+ 1848  npm install --save-dev typescript
+ 1849  sudo npm install --save-dev typescript
+ 1850  sudo npm install typescript ts-node
+ 1851  clear
+ 1852  node main.ts
+ 1853  ls
+ 1854  mkdir type
+ 1855  mv main.* type/
+ 1856  ls
+ 1857  cd type/
+ 1858  ls
+ 1859  code main.html
+ 1860  ls
+ 1861  tsc main.ts
+ 1862  ls
+ 1863  code main.*
+ 1864  tsc main.ts
+ 1865  code main.js
+ 1866  tsc main.ts
+ 1867  sudo apt update && sudo apt upgrade
+ 1868  sudo apt autoremove
+ 1869  sudo apt update
+ 1870  clear
+ 1871  sudo apt update
+ 1872  cd
+ 1873  cd type/
+ 1874  firefox main.html 
+ 1875  tsc main.ts 
+ 1876  firefox main.html 
+ 1877  cd Bureau/
+ 1878  ls
+ 1879  gedit git.txt 
+ 1880  ls
+ 1881  cd type/
+ 1882  ls
+ 1883  code main.ts 
+ 1884  node -v
+ 1885  /home/bilel/type/main.ts
+ 1886  cd type/
+ 1887  tsc main.ts 
+ 1888  code main.js 
+ 1889  /home/bilel/type/main.js
+ 1890  cd Bureau/
+ 1891  ls
+ 1892  cd ang
+ 1893  ls
+ 1894  gedit family.txt
+ 1895  cd ..
+ 1896  ls
+ 1897  cd
+ 1898  ls 
+ 1899  cd type/
+ 1900  ls
+ 1901  cd 
+ 1902  code type/
+ 1903  cd type/
+ 1904  npm install -g lite-server
+ 1905  sudo npm install -g lite-server
+ 1906  cd Bureau/
+ 1907  ls
+ 1908  code angular1/
+ 1909  cd angular1/
+ 1910  ng serve --open
+ 1911  sudo apt upgrade | sudo apt update 
+ 1912  sudo apt dist-upgrade
+ 1913  cd ..
+ 1914  mkdir projet
+ 1915  cd projet/
+ 1916  git clone https://github.com/angular/angular.git
+ 1917  cd ..
+ 1918  code projet/
+ 1919  cd projet/
+ 1920  ng serve --o
+ 1921  ng g c color
+ 1922  cd
+ 1923  ls
+ 1924  ng serve --o
+ 1925  ls
+ 1926  find *.mdj
+ 1927  cd Bureau/
+ 1928  ls
+ 1929  ls git
+ 1930  ls
+ 1931  cd 
+ 1932  ls
+ 1933  cd Bureau/
+ 1934  ls
+ 1935  git clone https://github.com/bilelaskri123/test-angular.git
+ 1936  ls
+ 1937  mv *.mdj test-angular/
+ 1938  ls
+ 1939  cd test-angular/
+ 1940  git status
+ 1941  ls
+ 1942  cd conception/
+ 1943  ls
+ 1944  cd ..
+ 1945  mv *.mdj conception/
+ 1946  ls
+ 1947  git status
+ 1948  git add .
+ 1949  git status
+ 1950  git commit -m 'ajout de diag'
+ 1951  git log
+ 1952  git push origin master 
+ 1953  ng g c test
+ 1954  npm install --save-dev @fortawesome/fontawesome-free
+ 1955  sudo npm install --save-dev @fortawesome/fontawesome-free
+ 1956  npm install font-awesome --save
+ 1957  npm install @fortawesome/fontawesome-free
+ 1958  sudo npm install @fortawesome/fontawesome-free
+ 1959  npm install --save-dev @fortawesome/fontawesome-pro
+ 1960  npm i @fortawesome/fontawesome-free
+ 1961  npm install font-awesome --save
+ 1962  npm install @fortawesome/fontawesome-free
+ 1963  cd Bureau/
+ 1964  ls
+ 1965  cd angular1/
+ 1966  cd ..
+ 1967  code angular1/
+ 1968  ng serve --o
+ 1969  cd angular1/
+ 1970  ng serve --o
+ 1971  npm install @fortawesome/fontawesome-free
+ 1972  ng serve --o
+ 1973  npm install --save-dev @fortawesome/fontawesome-pro
+ 1974  @fortawesome:registry=https://npm.fontawesome.com/
+ 1975  npm i --save @fortawesome/fontawesome
+ 1976  npm i -S font-awesome
+ 1977  ng serve --o
+ 1978  sudo chmod +x Postman 
+ 1979  sudo ./Postman 
+ 1980  Po
+ 1981  ./Postman 
+ 1982  cd Bureau/
+ 1983  mkdir rest-api
+ 1984  cd rest-api/
+ 1985  git clone https://github.com/loiane/oracle-cloud-examples.git
+ 1986  ls
+ 1987  netbeans .
+ 1988  code .
+ 1989  sudo apt-get install snapd
+ 1990  sudo snap install postman
+ 1991  sudo /opt/lampp/lampp start
+ 1992  mkdir /opt/tomcat
+ 1993  sudo mkdir /opt/tomcat
+ 1994  cd /opt/tomcat
+ 1995  wget https://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.43/bin/apache-tomcat-8.5.43.tar.gz
+ 1996  sudo wget https://www-us.apache.org/dist/tomcat/tomcat-8/v8.5.43/bin/apache-tomcat-8.5.43.tar.gz
+ 1997  tar xvzf apache-tomcat-8.5.32.tar.gz
+ 1998  sudo su 
+ 1999  dpkg --list | grep -i jdk
+ 2000  dpkg --list | grep -i jre
+ 2001  cd Bureau/
+ 2002  ls
+ 2003  sudo nano /usr/share/applications/STS.desktop
+ 2004  spring
+ 2005  cd
+ 2006  cd Bureau/
+ 2007  ls
+ 2008  cd rest-api/
+ 2009  ls
+ 2010  cd oracle-cloud-examples/
+ 2011  ls
+ 2012  cd spring-cloud-hello/
+ 2013  history
+ 2014  history | grep mvn
+ 2015  history > test.txt
